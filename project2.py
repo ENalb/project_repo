@@ -60,3 +60,4 @@ print(f'The program ends in {t2 - t1} seconds.')
 if os.path.exists(path) and len(os.listdir(path)) == 0:
     print(f'Folder {dir_name} deleted because it is empty.')
     os.rmdir(path)
+print()
